@@ -1,0 +1,40 @@
+.todoForm{
+    display: none;
+}
+.todoForm--active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    margin: auto;
+    border: 1px #52194b83 solid;
+    border-radius: 5px;
+    background-color: #942c869f;
+    width: 400px;
+}
+
+.todoForm__text{
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    width: 370px !important;
+    resize: none;
+    text-decoration: none;
+    outline: none;
+    background-color: #e91bcd;
+    color: black;
+    border: 1px transparent solid;
+
+}
+
+.todoForm__text::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.todoForm__text:focus{
+    border: 1px transparent solid;
+    background-color: #e91bcd;
+}
+
+.todoForm__text:hover{
+    background-color: #e94cd4b7;
+}

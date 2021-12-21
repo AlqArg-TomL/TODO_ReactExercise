@@ -1,0 +1,27 @@
+.TodoSearch{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #7f9ceb;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 100px;
+    border: 1px solid #1b0118ab;
+    border-radius: 8px;
+    box-shadow: 1px 1px 80px 13px #e91bcd;
+    color: #1b0118ab;
+}
+
+.TodoSearch::placeholder{
+    color: #00000059;
+}
+
+.TodoSearch:hover{
+    transform: scale(103%);
+}
+
+.TodoSearch:focus{
+    outline: 1px #1b0118ab solid;
+    color: #1b0118ab;
+}

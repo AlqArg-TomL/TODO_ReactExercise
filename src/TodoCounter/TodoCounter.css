@@ -1,0 +1,11 @@
+.TodoCounter{
+    font-size: 24px;
+    text-align: center;
+    color: #a31791;
+    text-shadow: 1px 1px 25px #e91bcd;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: #222;
+}

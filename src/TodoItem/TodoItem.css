@@ -1,0 +1,63 @@
+.TodoItem{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30px 1fr 15px;
+    width: 400px;
+    background-color: #e91bcd;
+    box-shadow: 1px 1px 20px 0.2px #e91bcd;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+.TodoItem p{
+    background-color: #e91bcd;
+    text-transform: uppercase;
+    border-radius:5px;
+    padding: 10px 0 10px 0;
+}
+
+.Icon{
+    font-size: 13px;
+    text-transform:lowercase;
+}
+
+.Icon--Cancel{
+    color: #941983;
+    margin: 0;
+    position: relative;
+}
+
+.Icon--Check{
+    display: inline-block;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 18px;
+    background-color: #ac469e;
+}
+
+.Icon--Check:hover{
+    background-color: #428888d0;
+    cursor: pointer;
+}
+
+.Icon--Cancel:hover{
+    color: #611056;
+    cursor: pointer;
+    font-size: 18px;
+    bottom: 3px;
+}
+
+.Icon--Check--active{
+    background-color: #41af8ad5;
+}
+
+.TodoItem--active{
+    transform: translate(10px);
+}
+
+
+.TodoItem--completed{
+    text-decoration: line-through;
+}

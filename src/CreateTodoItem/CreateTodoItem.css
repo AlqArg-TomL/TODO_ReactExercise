@@ -1,0 +1,41 @@
+.masterDiv{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 25px;
+    border: 1px #52194b83 solid;
+    border-radius: 5px;
+    background-color: #942c869f;
+}
+
+.CreateTodoItem{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    margin: auto;
+    border: 1px transparent solid;
+    border-radius: 5px;
+    background-color: #942c869f;
+    box-shadow: 1px 1px 20px 4px #e91bcd;
+}
+
+.CreateTodoItem p{
+    text-align: center;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+}
+
+.CreateTodoItem:hover{
+    background-color: #b421a0;
+    border-color:#42153c2a;
+    cursor: pointer;
+    transform: scale(105%);
+}
+
+.CreateTodoItem--hidden{
+    display: none;
+}
