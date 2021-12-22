@@ -7,10 +7,14 @@
     align-items: center;
     height: fit-content;
     margin: auto;
-    border: 1px #52194b83 solid;
+    border: 1px rgba(139, 36, 127, 0.514)olid;
     border-radius: 5px;
-    background-color: #942c869f;
-    width: 400px;
+    background: linear-gradient(270deg, rgba(198,32,175,1) 2%, rgba(233,27,205,1) 9%, rgba(233,27,205,1) 90%, rgba(198,32,175,1) 97%);
+    box-shadow: 1px 1px 20px 4px #c620af;
+    animation-name: todoFormOpen;
+    animation-duration: 0.7s;
+    overflow: hidden;
+
 }
 
 .todoForm__text{
@@ -20,14 +24,18 @@
     resize: none;
     text-decoration: none;
     outline: none;
-    background-color: #e91bcd;
-    color: black;
+    background: linear-gradient(270deg, rgba(198,32,175,1) 2%, rgba(233,27,205,1) 9%, rgba(233,27,205,1) 90%, rgba(198,32,175,1) 97%);
+    color: #521449;
     border: 1px transparent solid;
+    text-align: center;
+    overflow: hidden;
+
 
 }
 
 .todoForm__text::placeholder{
     color: rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
 .todoForm__text:focus{
@@ -37,4 +45,15 @@
 
 .todoForm__text:hover{
     background-color: #e94cd4b7;
+}
+
+@keyframes todoFormOpen{
+    from{
+        height: 0;
+    }
+    to{
+        height: 65px;
+    }
+    
+    
 }

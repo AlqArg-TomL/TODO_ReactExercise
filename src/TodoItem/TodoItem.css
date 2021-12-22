@@ -12,10 +12,12 @@
 }
 
 .TodoItem p{
-    background-color: #e91bcd;
+    background-color: transparent;
     text-transform: uppercase;
     border-radius:5px;
     padding: 10px 0 10px 0;
+    color: #521449;
+
 }
 
 .Icon{
@@ -55,6 +57,7 @@
 
 .TodoItem--active{
     transform: translate(10px);
+    background-color: #e91bcec2;
 }
 
 
